@@ -1,0 +1,15 @@
+{
+  "apps": [
+    {
+      "name": "main_app",
+      "script": "./app.js",
+      "watch": false,
+      "instances": "max",
+      "log_date_format": "YYYY-MM-DD HH:mm:ss",
+      "exec_mode": "cluster",
+      "node_args": [
+        "--max_old_space_size=50000"
+      ]
+    }
+  ]
+}
